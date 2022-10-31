@@ -17,22 +17,12 @@ export default function DropdownMenu() {
             <div className='px-3 py-2 uppercase font-bold text-xs'>
               Categories
             </div>
-            <DropdownMenuItem href='/categories/general'>
-              General
+            <DropdownMenuItem href='/categories/oop'>
+              การเขีียนโปรแกรมเชิงวัตถุ
             </DropdownMenuItem>
-            <DropdownMenuItem href='/categories/tech'>
-              Tech
+            <DropdownMenuItem href='/categories/business'>
+              ธุรกิจ
             </DropdownMenuItem>
-            <DropdownMenuItem href='/categories/rant'>
-              Rant
-            </DropdownMenuItem>
-            <DropdownMenuItem href='/categories/photography'>
-              Photography
-            </DropdownMenuItem>
-            <DropdownMenuItem href='/categories/productivity'>
-              Productivity
-            </DropdownMenuItem>
-
           </div>
         </Menu.Items>
       </Transition>

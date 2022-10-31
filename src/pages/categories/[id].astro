@@ -4,24 +4,12 @@ import CategoryPosts from '../../layouts/CategoryPosts.astro'
 export function getStaticPaths() {
   const categories = [
     {
-      id: 'tech',
-      name: 'Tech'
+      id: 'oop',
+      name: 'Java'
     },
     {
-      id: 'productivity',
-      name: 'Productivity'
-    },
-    {
-      id: 'rant',
-      name: 'Rant'
-    },
-    {
-      id: 'photography',
-      name: 'Photography'
-    },
-    {
-      id: 'general',
-      name: 'General'
+      id: 'business',
+      name: 'business-study'
     }
   ]
   return categories.map(({ id, name }) => {
