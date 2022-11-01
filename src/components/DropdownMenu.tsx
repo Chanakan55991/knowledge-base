@@ -18,7 +18,7 @@ export default function DropdownMenu() {
               Categories
             </div>
             <DropdownMenuItem href='/categories/oop'>
-              การเขีียนโปรแกรมเชิงวัตถุ
+              การเขียนโปรแกรมเชิงวัตถุ
             </DropdownMenuItem>
             <DropdownMenuItem href='/categories/business'>
               ธุรกิจ
