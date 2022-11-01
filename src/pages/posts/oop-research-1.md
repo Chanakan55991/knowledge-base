@@ -5,7 +5,7 @@ public: true
 layout: ../../layouts/BlogPost.astro
 title: งานค้นคว้าครั้งที่ 1
 createdAt: 1667278497226
-updatedAt: 1667292857953
+updatedAt: 1667345302766
 tags:
   - Java
 heroImage: /posts/oop-research-1_thumbnail.png
@@ -78,3 +78,32 @@ export class Card extends Component<Props> { // Inheritance ที่ Inherit �
 ![rc](/posts/oop-research-1_rc.png)
 - Water Resistance ESC - วงจรควบคุมความเร็วรถบังคับ
 - Brushed Motor - 
+
+### Life Vest - เสื้อชูชีพ
+![clipboard.png](/posts/oop-research-1_clipboard-png.png)
+- Hi-Viz Strip - แถบสะท้อนแสง
+- Adjustable Strap - สายรัดเอว
+- Whistle - นกหวีด
+- Elastic Side - แถบยางยืด
+- Waisted Buckle - หัวเข็มขัด
+
+### Motorcycle - มอเตอร์ไซค์
+![motorcycle](/posts/oop-research-1_motorcycle.png)
+- คุมแฮนด์
+- คุมล้อ
+- ยางล้อหน้า
+- โช้ก
+- บังโคลน
+- โคมไฟหน้า
+- ไฟเลี้ยว
+- คันเบรกมือ
+- กระจกส่องหลังขวา
+- เรือนวัดความเร็ว
+- เบาะ
+- โช้ก
+- ที่พักเท้า
+- เหล็กบังโซ่
+
+### Mini Lego - มินิเลโก้
+![legop](/posts/oop-research-1_legop.png)
+- acrylonitrile butadiene styrene (ABS) - พลาสติกเหลว
