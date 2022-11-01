@@ -5,7 +5,7 @@ public: true
 layout: ../../layouts/BlogPost.astro
 title: งานค้นคว้าครั้งที่ 1
 createdAt: 1667278497226
-updatedAt: 1667280047725
+updatedAt: 1667289501700
 tags:
   - Java
 heroImage: /posts/oop-research-1_thumbnail.png
@@ -22,3 +22,45 @@ heroImage: /posts/oop-research-1_thumbnail.png
 - C#
  
 โดยที่ Typescript ใช้ Javascript เป็นฐานอีกที และถูกสร้างมาเพื่อเพิ่มหลักการ `Typing`, `interfaces`, และ `classes` ขึ้นมา
+ตัวอย่างเช่น
+
+```tsx
+// src/components/card.tsx
+import React, { ReactNode, Component } from 'react'
+
+type Props = {
+  children: {
+    header: ReactNode
+    media: ReactNode
+    content: ReactNode
+    actions: ReactNode
+  }
+}
+
+export class Card extends Component<Props> { // Inheritance ที่ Inherit มาจากคลาส Component กลายเป็นคลาส Card
+  render() { // เมธอด render
+    const { header, content, media, actions } = this.props.children
+
+    return (
+      <div className="card bg-orange-200 dark:bg-zinc-700 hover:bg-orange-300 dark:hover:bg-zinc-800">{header}</div>
+      <div className="card bg-orange-200 dark:bg-zinc-700 hover:bg-orange-300 dark:hover:bg-zinc-800">{content}</div>
+      <div className="card bg-orange-200 dark:bg-zinc-700 hover:bg-orange-300 dark:hover:bg-zinc-800">{media}</div>
+      <div className="card bg-orange-200 dark:bg-zinc-700 hover:bg-orange-300 dark:hover:bg-zinc-800">{actions}</div>
+    )
+  }
+}
+```
+
+## ยกตัวอย่างวัตถุที่นักเรียนเกี่ยวข้องในชีวิตประจำวัน เพื่ออธิบายถึง วัตถุ(Object) คุณสมบัติ (Attributes) และพฤติกรรม (Behavior) มา 2 วัตถุ
+- มนุษย์ โดยที่
+  - Class: มนุษย์ โดยมีรากฐานมาจากอฟริกา โดยที่กลายมาเป็นสิ่งมีชีวิตเลี้ยงลูกด้วยนมที่ทำหน้าที่ต่างๆ
+  - Object: มนุษย์
+  - Attributes: ชื่อ อายุ ความสูง น้ำหนัก
+  - Behavior: เดิน พูด กิน นอน
+- เครื่องดูดฝุ่น
+  - Class: เครื่องดูดฝุ่นเป็นอุปกรณ์ทางอิเล็กทรอนิกส์ที่ทำหน้าที่ดูดอากาศเข้าไปในเครื่องเพื่อที่จะดูดฝุ่นเข้าไป
+  - Object: เครื่องดูดฝุ่น
+  - Attributes: ความจุ ขนาด
+  - Behavior: ดูดฝุ่น เก็บไปยังถุง
+ 
+## จงแยกองค์ประกอบของวัตถุนี้ออกเป็นส่วน ๆ ว่าประกอบด้วยส่วนประกอบอะไรบ้าง โดยใส่ภาพประกอบแต่ละชิ้นส่วนให้ดูด้วย
