@@ -5,7 +5,7 @@ public: true
 layout: ../../layouts/BlogPost.astro
 title: งานค้นคว้าครั้งที่ 1
 createdAt: 1667278497226
-updatedAt: 1667345302766
+updatedAt: 1667345443855
 tags:
   - Java
 heroImage: /posts/oop-research-1_thumbnail.png
@@ -77,7 +77,9 @@ export class Card extends Component<Props> { // Inheritance ที่ Inherit �
 ### RC Car - รถบังคับวิทยุ
 ![rc](/posts/oop-research-1_rc.png)
 - Water Resistance ESC - วงจรควบคุมความเร็วรถบังคับ
-- Brushed Motor - 
+- Brushed Motor - มอเตอร์ล้อ
+- Ni-MH แบตเตอรี่
+- Suspension - โช้ก
 
 ### Life Vest - เสื้อชูชีพ
 ![clipboard.png](/posts/oop-research-1_clipboard-png.png)
