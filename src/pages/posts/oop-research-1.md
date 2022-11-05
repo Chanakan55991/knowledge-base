@@ -5,7 +5,7 @@ public: true
 layout: ../../layouts/BlogPost.astro
 title: งานค้นคว้าครั้งที่ 1
 createdAt: 1667278497226
-updatedAt: 1667636417202
+updatedAt: 1667637029873
 tags:
   - Java
 heroImage: /posts/oop-research-1_thumbnail.png
