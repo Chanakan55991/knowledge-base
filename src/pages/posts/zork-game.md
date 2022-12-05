@@ -5,10 +5,10 @@ public: true
 layout: ../../layouts/BlogPost.astro
 title: เกม Zork
 createdAt: 1669455020669
-updatedAt: 1670223889786
+updatedAt: 1670224007099
 tags:
   - General
-heroImage: /astrojs.jpg
+heroImage: /posts/zork-game_thumbnail.png
 ---
 ## เนื้อเรื่องดั้งเดิมของเกม
 
